@@ -15,8 +15,16 @@ public class JavaAppGUI02 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        MainFrame mf = new MainFrame();
+        MainFrame mf = new MainFrame("Η Εφαρμογή μου");
         mf.setVisible(true);
+        mf.setResizable(false);
+        
+        PictureFrame pf = new PictureFrame("Επιλογέας εικόνων");
+        pf.setVisible(true);
+        pf.setResizable(false);
+        
+        
+        System.out.println(System.getProperty("user.dir"));
     }
     
 }
