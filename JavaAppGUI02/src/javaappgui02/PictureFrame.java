@@ -62,6 +62,8 @@ public class PictureFrame extends JFrame {
         c.weightx = 1.0;
         add(picSelect, c);
         
+        
+        
         c.gridx = 0;
         c.gridy = 1;
         c.anchor = GridBagConstraints.CENTER;
